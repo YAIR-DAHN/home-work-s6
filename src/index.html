@@ -1,0 +1,46 @@
+<!-- ai... -->
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>ברוכים הבאים לספרייה</title>
+  <style>
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #0077b6;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  </style>
+</head>
+<body dir="rtl" style="text-align: center;">
+  <h1>ברוכים הבאים לספרייה</h1>
+  <p>כדי להציג את כל הספרים, ניתן להשתמש בבקשת GET לנתיב /books</p>
+  <p>כדי להציג ספר ספציפי, ניתן להשתמש בבקשת GET לנתיב /books/(id)</p>
+  <p>כדי להוסיף ספר חדש, ניתן לשלוח בקשת POST לנתיב /books <br>ולהוסיף ב-body את שם הספר (title) ושם המחבר (author) בפורמט JSON</p>
+  <p>כדי לעדכן ספר קיים, ניתן לשלוח בקשת PUT לנתיב /books/(id)</p>
+  <p>כדי לעדכן ערך בספר ניתן לעשות כן בבקשת PATCH</p>
+  <p>כדי למחוק ספר, ניתן לשלוח בקשת DELETE לנתיב /books/(id)</p>
+</body>
+
+</html>
+
